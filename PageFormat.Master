@@ -1,0 +1,61 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="PageFormat.master.cs" Inherits="CU_Canteen.PageFormat" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="login_style.css" rel="stylesheet" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+</asp:ContentPlaceHolder>
+    <style type="text/css">
+      .auto-style {
+    height: 81px;
+    margin-bottom: 5px;
+    background-color: #0c588f;
+    padding-right: 10px;
+    font-family: 'Sitka Display';
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}  
+    </style>
+</head>
+
+<body>
+    <form id="form1" runat="server">
+
+        
+        <div class="wrap">
+
+             <div class="auto-style">
+                 <ul>
+                     <li>
+                         <span>Fudo</span><br />
+                          with UCSP
+                     </li>
+                   
+                     <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="index.aspx">Restaurant</a></li>
+                     <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="AdminLogin.aspx">Admin</a></li>
+                     <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="login.aspx">Contact us</a></li>
+
+                 </ul>
+             </div>
+
+            <div class="content">
+
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+        
+                </asp:ContentPlaceHolder>
+
+            </div>
+
+            
+             <div class="clear"></div>
+             
+        </div>
+        
+    </form>
+</body>
+</html>
