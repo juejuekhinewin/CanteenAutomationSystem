@@ -1,11 +1,9 @@
 # CanteenAutomationSystem 
 
-Tech Stack
+Used Language: C#, Framework: ASP.NET 
 
-.C#
-.ASP.NET 
+<------------------------------  Screenshots ------------------------------ >
 
-Screenshots
 
 Home Page before Login
 
